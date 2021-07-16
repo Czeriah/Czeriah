@@ -18,7 +18,7 @@ overlay.forEach((item, i) => {
   item.addEventListener('dblclick', function load() {
       count = Array.from(gallerie).indexOf(item);
       item.style.display = 'block';
-      body.style.overflow = 'hidden';
+      // body.style.overflow = 'hidden';
       // overlay.style.overflow = 'auto';
       // overlay.style.animation = 'display 0.5s ease';
 
