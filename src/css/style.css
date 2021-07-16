@@ -1,0 +1,561 @@
+/*----------------------------------------------------------------
+---------------------------- FONTS -------------------------------
+----------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&display=swap');
+
+/*----------------------------------------------------------------
+------------------------    VARIABLES  ---------------------------
+----------------------------------------------------------------*/
+
+:root {
+    --font-size:1rem;
+}
+
+/*----------------------------------------------------------------
+-------------------------- RESET CSS ----------------------------
+----------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------
+----------------------- BASIC ---------------------------
+------------------------------------------------------*/
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #0A0D16;
+    color: #F48C06;
+    background-image: url(../img/etoiles-fond.png);
+    margin: 0;
+    overflow: auto;
+    overflow-x : hidden;
+}
+
+#accueil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 195px;
+    margin-right: 50px;
+    height: 100vh;
+}
+
+#fond {
+    width: 100vh;
+    height: auto;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding: 50px 0 30px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 20px 0px 0px 0px;
+}
+
+/*---------------- Animation  ----------------------*/
+
+
+#logo_anime {
+    width:100%;
+}
+
+#thankyou {
+    width: 80%;
+    padding: 0px 50px 50px 50px;
+    margin-left:246px;
+}
+
+/*-----------------  SOCIALS --------------------------*/
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#sociaux {
+    width: 50px;
+    font-size: 3em;
+    text-align: center;
+}
+
+#sociaux li {
+    padding : 10px;
+}
+
+#sociaux li a i {
+    transition: all .3s;
+}
+
+#sociaux li a i:hover {
+    transform: scale(1.3); /* augmente de taille de 130% */
+}
+
+#sociaux #red {
+    color: #D00000;
+}
+
+#sociaux #orange-1 {
+    color: #EE740D;
+}
+
+#sociaux #orange-2 {
+    color: #F48C06;
+}
+
+#sociaux #jaune {
+    color: #F4B506;
+}
+
+/*---------------------------------------------------
+-------------------- side menu-----------------------
+---------------------------------------------------*/
+
+
+
+#side_menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #370617;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+}
+
+#side_menu li {
+    font-size: 1.5em;
+    padding: 50px 35px 50px 35px;
+    text-align: center;
+}
+
+#side_menu a, a:link, a:visited{
+    color:#F4B506;
+}
+
+/*-----------------------------------------------------
+------------------- PROJETS ---------------------------
+-----------------------------------------------------*/
+
+#projects {
+    padding-left: 50px;
+    margin-left:246px;
+    z-index: -1;
+}
+
+#border_red {
+    border: #D00000 solid 1px;
+    margin-bottom: 50px;
+}
+
+#border_orange-1 {
+    border: #EE740D solid 1px;
+    margin-top: 25px;
+
+}
+
+#border_orange-2 {
+    border: #F48C06 solid 1px;
+    margin-bottom: 25px;
+}
+
+#border_jaune {
+    border: #F4B506 solid 1px;
+    margin-top: 50px;
+}
+
+.dragdealer img {
+    opacity: 0.75;
+}
+
+.dragdealer img:hover {
+    opacity: 1;
+}
+
+.dragdealer {
+    width: 1215px;
+    height :600px;
+    overflow: hidden;
+}
+
+.handle {
+    height:100%;
+    position: absolute;
+}
+
+#gallerie {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+    overflow-x : hidden;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    cursor: grab;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #640410E6;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+/*---------------- projets description ---------------*/
+
+.inside {
+    display:none;
+    /* position: absolute; */
+    overflow: scroll;
+}
+
+/* .project_description::-webkit-scrollbar*/
+ .inside {
+    width: 16px;
+  }
+
+.inside::-webkit-scrollbar-thumb {
+    background-color: #7b7d7f;
+    border: 5px solid #fff;
+    border-radius: 10rem;
+  }
+.inside::-webkit-scrollbar-track {
+    position: absolute;
+    right: -3rem;
+    top: -50rem;
+    background: transparent;
+  }
+
+.illu {
+    width: 800px;
+    height: auto;
+}
+
+.inside p {
+    font-size: 1.25em;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 100px 100px 100px;
+}
+
+#titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre .fa, .fas {
+    font-weight: 900;
+    font-size: 2.5em;
+    padding-top: 50px;
+    position: fixed;
+    left:90%;
+}
+
+
+/*-----------------------------------------------------
+----------------------------- CV -----------------------
+-----------------------------------------------------*/
+
+.cv {
+    /* height: auto; */
+    padding: 50px;
+    margin-left:246px;
+}
+
+#prez, .exp_pro {
+    display: flex;
+    gap : 50px;
+}
+
+.bg_div {
+    background-color: #640410B8;
+    color: #F4B506;
+    margin: 50px 0 50px 0px;
+}
+
+/*----------------------intro---------------------*/
+
+#prez-text p {
+    padding: 50px;
+}
+
+#avatar img{
+    height: 250px;
+    width: auto;
+    margin: 50px 0 50px 0px;
+}
+
+/*------------------ skills -----------------------*/
+
+#logiciels ul li, #technologie ul li {
+    padding: 10px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+}
+
+#logiciels ul, #technologie ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#logiciels, #technologie {
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 50px 25px 50px;
+    justify-content: space-around;
+}
+
+/*--------- experience pro & school  ----------*/
+
+.exp_year {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_year p{
+    padding: 10px;
+}
+
+.exp_year h3{
+    padding: 20px;
+    text-align: center;
+}
+
+.border_left {
+    border-left: solid #F48C06 2px;
+    padding: 15px;
+}
+
+#comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#school {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+
+
+/*------------------------------------------------------
+-------------------------About Me---------------------
+------------------------------------------------------*/
+
+#about_me {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 50px;
+}
+
+#box {
+ margin-left: 246px;
+ padding: 50px;
+}
+
+
+/*------------------- Inspi -----------------*/
+
+#inspi {
+    height: auto;
+    padding: 50px;
+    margin-left:246px;
+}
+
+.list ul{
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+}
+
+.list ul li img {
+    width:200px;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+.cover {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.container:hover .image {
+    opacity: 0.3;
+  }
+  
+.container:hover .middle {
+    opacity: 1;
+  }
+  
+.text {
+    background-color: #370617;
+    color: #F4B506;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+.text ul {
+      display: flex;
+      flex-direction: column;
+      gap : 15px;
+      font-size: 1em;
+  }
+
+.text h4 {
+      font-weight: 900;
+  }
+
+.text li a i {
+    transition: all .3s;
+    font-size: 1.5em;
+}
+
+.text li a i:hover {
+    transform: scale(1.3); /* augmente de taille de 130% */
+}
+
+#wlop {
+    padding: 20px;
+}
+
+/*------------------ Contact ----------------------*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    padding: 50px;
+    margin-left:246px;
+    gap: 50px;
+}
+
+#form_bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+textarea {
+    width: 300px;
+    height: 235px;
+    border-radius:10px;
+    border: solid 2px #ffffff;
+    opacity:70%;
+    padding:5px;
+}
+
+#form_right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+}
+
+#form_left {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input.bouton {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5em;
+    background-color: #EE740D;
+    color: #ffffff;
+    height: 41px;
+    width: 135px;
+    border: none;
+    opacity: 100%;
+    border-radius: 20px;
+}
+
+input {
+    width: 300px;
+    height:30px;
+    border-radius:10px;
+    border: solid 2px #ffffff;
+    opacity:70%;
+    padding : 5px;
+}
+
+#bouton {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}

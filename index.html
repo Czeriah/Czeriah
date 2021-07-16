@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragdealer/0.9.8/dragdealer.min.js"></script>
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/9cd224d2fe.js" crossorigin="anonymous"></script>
+    
+
+    <nav id="side_menu" class="flex">
+        <ul>
+            <li><a href="#accueil">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#box">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul> 
+    </nav>
+    
+    <section id="accueil">
+        <div id="logo_anime">
+
+        </div>
+
+        <section id="sociaux">
+            <ul>
+                <li><a href="https://czeriah.tumblr.com/"><i class="fab fa-tumblr" id="red"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/marine-rossillon-b4a54a203/"><i class="fab fa-linkedin" id="orange-1"></i></a></li>
+                <li><a href="#"><i class="fab fa-etsy" id="orange-2"></i></a></li>
+                <li><a href="https://twitter.com/Czeriah1"><i class="fab fa-twitter-square" id="jaune"></i></i></a></li>
+                <li><a href="https://www.instagram.com/czeriahx/"><i class="fab fa-instagram" id="orange-2"></i></a></li>
+                <li><a href="https://www.behance.net/marinerossillon"><i class="fab fa-behance" id="orange-1"></i></a></li>
+                <li><a href="https://dribbble.com/Czeriah"><i class="fab fa-dribbble-square" id="red"></i></a></li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="projects">
+        <h2>My projects</h2>
+ 
+         <div class="dragdealer" id="plop">
+             <div class="handle">
+                 <div id="gallerie">
+                    <div class="slide content1" onclick="on()">
+                        <div id="border_red">
+                            <img src="src/img/bateau404.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content2" onclick="on()">
+                        <div id="border_orange-1">
+                            <img src="src/img/cassette.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content3" onclick="on()">
+                        <div  id="border_orange-2">
+                            <img src="src/img/Elevage.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content4" onclick="on()">
+                        <div  id="border_jaune">
+                            <img src="src/img/ghosty404.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content5" onclick="on()">
+                        <div  id="border_red">
+                            <img src="src/img/glass-planet.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content6" onclick="on()">
+                        <div  id="border_orange-1">
+                            <img src="src/img/hackathon.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content7" onclick="on()">
+                        <div  id="border_orange-2">
+                            <img src="src/img/llewelynnsknit.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content8" onclick="on()">
+                        <div  id="border_jaune">
+                            <img src="src/img/podcast.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content9" onclick="on()">
+                        <div id="border_red">
+                            <img src="src/img/snowflake.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide content10" onclick="on()">
+                        <div id="border_orange-1">
+                            <img src="src/img/soucoupe404.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <div class="inside" id="overlay">
+            <div class="content-1">
+                <div id="titre">
+                    <h2 class="project_title">The Boat</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-2">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. I saw a cute gosht and decided to create a 404 page around the idea of a ghost looking for something. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/ghosty.png" class="illu" alt="">
+                <img src="src/img/projets/ghosty404.png" class="illu" alt="">
+
+                <video src="src/img/projets/Ghosty.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-3">
+                <div id="titre">
+                    <h2 class="project_title">The mystery of the missing sock</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on a theme of our choice. I was inspired by a story one of my classmate told us, the case of the missing sock, to which the  ending was that it had been raken by UFO's.I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/soucoupe_volante_404_V3_Plan de travail 1.png" class="illu" alt="">
+
+                <video src="src/img/projets/Animation finale soucoupe.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-4">
+                <div id="titre">
+                    <h2 class="project_title">The Glass Planet</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>Illustration created on <strong>Illustrator</strong> by using <a href="https://youtu.be/Z2SNeH9v-Ug">a tutorial on Youtube</a>
+
+                <img src="src/img/projets/planete v1_Plan de travail 1.png" class="illu" alt="">
+            </div>
+
+            <div class="content-5">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-6">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-7">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-8">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-9">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+
+            <div class="content-10">
+                <div id="titre">
+                    <h2 class="project_title">The Ghost</h2> 
+                    <i class="fas fa-times" onclick="off()"></i>
+                </div>
+                
+                <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+                <img src="src/img/projets/404-boat.png" class="illu" alt="">
+
+                <video src="src/img/projets/bateau final.mp4" class="illu" controls></video>
+            </div>
+        </div>
+    </section> <br><br>
+
+    <section id="project_description">
+
+    </section>
+
+    <section class="cv" id="cv">
+        <h2>Curriculum Vitae</h2>
+
+        <div id="prez" >
+            <div id="avatar">
+                <img src="src/img/avatar.png" alt="">
+            </div>
+                <div class="bg_div" id="prez-text">
+                    <p>
+                        Consciencieuse et polyvalente, j’aime les challenges et je suis toujours soif d’apprentissage. <br/><br/>
+                        Après 7 ans dans la restauration, je suis actuellement en reconversion professionnelle en Web Design au Campus du Lac, CCI Bordeaux.<br/><br/>
+                        Mon séjour de 3 ans et demi en Angleterre m’assure une très bonne maîtrise de l'anglais à l’écrit comme à l’oral.
+                    </p>
+                </div>
+        </div>
+
+        <div id="skills">
+            <div id="logiciels">
+                <div>
+                    <h3>Logiciels</h3>
+                    <ul>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M213.102,181.6h-72.24V352h33.12v-57.12h40.32c29.531,0,53.04-25.713,53.04-56.64
+                                        C267.342,212,246.166,181.6,213.102,181.6z M212.382,265.84h-38.4v-55.2h36.96c14.057,0,22.8,13.2,22.8,27.6
+                                        C233.742,255,224,265.84,212.382,265.84z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M336.939,276.64c-4.642-1.118-24.72-4.39-24.72-15.84c0-9.175,7.531-14.16,19.2-14.16c15.831,0,30.079,9.12,36.48,13.92
+                                        l12.96-19.44c-6.881-6.079-21.609-17.28-49.2-17.28c-26.284,0-49.44,14.91-49.44,41.52c0,27.64,36.72,32.801,44.88,35.04
+                                        c9.757,2.723,27.6,6.225,27.6,17.04c0,8.81-8.449,13.92-20.64,13.92c-18.809,0-36.48-11.119-44.16-16.56l-12,20.16
+                                        c7.2,6.24,27.851,19.44,56.88,19.44c15.679,0,50.88-4.9,50.88-39.84C385.659,285,345.579,278.882,336.939,276.64z"/></g></svg>
+                              
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <rect x="164.262" y="181.6" width="33.119" height="170.4"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M351.46,315.04V176.8H319.3v71.52c-4.162-7.2-17.217-24.24-42.479-24.24c-29.821,0-56.16,25.92-56.16,65.04
+                                        c0,34.505,22.839,65.28,59.761,65.28c25.203,0,39.037-16.237,43.678-24.24c0,0-2.102,23.52,21.119,23.52
+                                        c3.518,0,8.078-0.562,13.681-1.68v-27.36C356.178,324.482,351.46,318.4,351.46,315.04z M319.3,305.92
+                                        c-1.121,3.041-10.3,21.12-30.479,21.12c-21.321,0-34.8-18.873-34.8-37.2c0-16.673,10.979-38.4,32.88-38.4
+                                        c19.598,0,31.117,20.962,32.399,24.48V305.92z"/></g></svg>
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M241.782,181.6h-29.28L147.462,352h34.08l15.6-42.48h59.52l15.84,42.48h34.08L241.782,181.6z M202.662,286.24l24.48-66.96
+                                        l23.52,66.96H202.662z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <g>
+                                        <rect x="322.182" y="226.24" width="32.159" height="125.76"/>
+                                        <rect x="322.182" y="176.8" width="32.159" height="31.92"/>
+                                    </g>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z"/></g></svg>
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M0,0v512h512V0H0z M482,482H30V30h452V482z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M202.18,181.6H172.9L107.86,352h34.08l15.6-42.48h59.52L232.9,352h34.08L202.18,181.6z M163.06,286.24l24.48-66.96
+                                        l23.52,66.96H163.06z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M403.301,288.64c0-43.39-33.551-64.56-65.52-64.56c-44.781,0-66.48,34.545-66.48,65.76c0,34.785,26.074,64.56,66.24,64.56
+                                        c38.209,0,53.917-23.28,58.56-32.88l-27.6-7.68c-2.081,5.123-11.918,17.04-29.76,17.04c-27.574,0-32.88-26.479-33.36-31.44h97.2
+                                        C402.9,298.161,403.301,290.721,403.301,288.64z M304.901,278.56c1.474-18.435,15.474-31.2,32.4-31.2
+                                        c16.449,0,30.949,11.14,32.88,31.2H304.901z"/></g></svg>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675.7 614.9" width="125px" height="75px" fill="#F48C06"><path d="M263.7 0h106.4l8.9 15.5h30.5l266.1 461-57.3 97.7H385.4l23.6 40.7h-10.3l-23.6-40.7H86l-14.8-26H52.9L0 456.6h.1L67.9 339l62.8-36.2 103.9-179.9-20.9-36.2 50-86.7zm62.7 159.1L142.6 476.6h175.9l-20.3-35.1 191.7.2-163.5-282.6z"/></svg>
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <path style="fill:#F48C06;" d="M294.656,13.014c-2.531-2.056-5.863-2.842-9.045-2.133l-277.333,64
+                                    C3.397,76.003-0.047,80.369,0,85.377v362.667c0.002,5.263,3.843,9.739,9.045,10.539l277.333,42.667
+                                    c5.823,0.895,11.269-3.099,12.164-8.921c0.082-0.535,0.124-1.076,0.124-1.617V21.377C298.676,18.124,297.199,15.045,294.656,13.014
+                                    z"/>
+                                <path style="fill:#F48C06;" d="M501.334,458.71H288c-5.891,0-10.667-4.776-10.667-10.667c0-5.891,4.776-10.667,10.667-10.667
+                                    h202.667V74.71H288c-5.891,0-10.667-4.776-10.667-10.667S282.109,53.377,288,53.377h213.333c5.891,0,10.667,4.776,10.667,10.667
+                                    v384C512,453.935,507.225,458.71,501.334,458.71z"/>
+                            </g>
+                            <path style="fill:#000000;" d="M181.334,352.044c-4.753-0.005-8.928-3.155-10.24-7.723L138.667,230.87L106.24,344.321
+                                c-2.342,5.661-8.83,8.352-14.492,6.01c-2.722-1.126-4.884-3.288-6.01-6.01L43.072,194.988c-1.786-5.614,1.318-11.612,6.932-13.398
+                                c5.614-1.786,11.612,1.318,13.398,6.932c0.063,0.198,0.12,0.398,0.172,0.599L96,302.55L128.427,189.1
+                                c2.342-5.661,8.83-8.352,14.492-6.01c2.722,1.126,4.884,3.288,6.01,6.01l32.405,113.451l32.427-113.429
+                                c1.535-5.614,7.331-8.921,12.945-7.386c0.08,0.022,0.159,0.045,0.239,0.068c5.66,1.622,8.935,7.523,7.317,13.184l-42.667,149.333
+                                C190.281,348.897,186.094,352.048,181.334,352.044z"/>
+                            <g>
+                                <path style="fill:#F48C06;" d="M458.667,138.71H288c-5.891,0-10.667-4.776-10.667-10.667c0-5.891,4.776-10.667,10.667-10.667
+                                    h170.667c5.891,0,10.667,4.776,10.667,10.667C469.334,133.935,464.558,138.71,458.667,138.71z"/>
+                                <path style="fill:#F48C06;" d="M458.667,202.71H288c-5.891,0-10.667-4.776-10.667-10.667s4.776-10.667,10.667-10.667h170.667
+                                    c5.891,0,10.667,4.776,10.667,10.667S464.558,202.71,458.667,202.71z"/>
+                                <path style="fill:#F48C06;" d="M458.667,266.71H288c-5.891,0-10.667-4.776-10.667-10.667c0-5.891,4.776-10.667,10.667-10.667
+                                    h170.667c5.891,0,10.667,4.776,10.667,10.667C469.334,261.935,464.558,266.71,458.667,266.71z"/>
+                                <path style="fill:#F48C06;" d="M458.667,330.71H288c-5.891,0-10.667-4.776-10.667-10.667c0-5.891,4.776-10.667,10.667-10.667
+                                    h170.667c5.891,0,10.667,4.776,10.667,10.667C469.334,325.935,464.558,330.71,458.667,330.71z"/>
+                                <path style="fill:#F48C06;" d="M458.667,394.71H288c-5.891,0-10.667-4.776-10.667-10.667c0-5.891,4.776-10.667,10.667-10.667
+                                    h170.667c5.891,0,10.667,4.776,10.667,10.667C469.334,389.935,464.558,394.71,458.667,394.71z"/></g></svg>
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M160,208.011h-32v64h32c17.632,0,32-14.368,32-32C192,222.379,177.632,208.011,160,208.011z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M496,80.011H288v-48c0-4.768-2.112-9.28-5.792-12.32c-3.648-3.04-8.544-4.352-13.152-3.392l-256,48
+                                        C5.472,65.707,0,72.299,0,80.011v352c0,7.68,5.472,14.304,13.056,15.712l256,48c0.96,0.192,1.952,0.288,2.944,0.288
+                                        c3.712,0,7.328-1.28,10.208-3.68c3.68-3.04,5.792-7.584,5.792-12.32v-48h208c8.832,0,16-7.168,16-16v-320
+                                        C512,87.179,504.832,80.011,496,80.011z M160,304.011h-32v48c0,8.832-7.168,16-16,16c-8.832,0-16-7.168-16-16v-160
+                                        c0-8.832,7.168-16,16-16h48c35.296,0,64,28.704,64,64S195.296,304.011,160,304.011z M480,400.011H288v-32h144
+                                        c8.832,0,16-7.168,16-16c0-8.832-7.168-16-16-16H288v-112v-112h192V400.011z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M352,240.011v-94.4c-36.512,7.424-64,39.712-64,78.4c0,44.192,35.808,80,80,80c38.688,0,70.976-27.488,78.4-64H352z"/>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M384,145.611v62.4h62.4C440.032,176.683,415.328,151.979,384,145.611z"/>
+                                </g>
+                            </svg>
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                 viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
+                            <g>
+                                <path style="fill:#F48C06;" d="M25.162,3H16v2.984h3.031v2.031H16V10h3v2h-3v2h3v2h-3v2h3v2h-3v3h9.162
+                                    C25.623,23,26,22.609,26,22.13V3.87C26,3.391,25.623,3,25.162,3z M24,20h-4v-2h4V20z M24,16h-4v-2h4V16z M24,12h-4v-2h4V12z M24,8
+                                    h-4V6h4V8z"/>
+                                <path style="fill:#F48C06;" d="M0,2.889v20.223L15,26V0L0,2.889z M9.488,18.08l-1.745-3.299c-0.066-0.123-0.134-0.349-0.205-0.678
+                                    H7.511C7.478,14.258,7.4,14.494,7.277,14.81l-1.751,3.27H2.807l3.228-5.064L3.082,7.951h2.776l1.448,3.037
+                                    c0.113,0.24,0.214,0.525,0.304,0.854h0.028c0.057-0.198,0.163-0.492,0.318-0.883l1.61-3.009h2.542l-3.037,5.022l3.122,5.107
+                                    L9.488,18.08L9.488,18.08z"/></g></svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="technologie">
+                <div>
+                    <h3>Technologie Maîtrisées</h3>
+                    
+                    <ul>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <circle style="fill:#F48C06;" cx="256" cy="256" r="256"/>
+                            <path style="fill:#EE740D;" d="M405.21,129.405l-70.646-28.547l-124.44,120.581l-75.183-57.035l-28.518,14.259l0.366,150.674
+                                l180.73,180.73C414.032,494.532,512,386.712,512,256c0-6.947-0.287-13.827-0.83-20.635L405.21,129.405z"/>
+                            <path style="fill:#000000;" d="M405.21,129.405l-70.646-28.547l-124.44,120.581l-75.183-57.035l-28.518,14.259l0.366,150.674
+                                l28.518,14.259l75.183-57.035l124.44,120.581l70.646-28.547L405.21,129.405z M142.437,285.913v-63.825L177.718,254h0.366
+                                L142.437,285.913z M327.477,307.139L256.549,254h-0.366l71.294-53.139L327.477,307.139L327.477,307.139z"/></svg>
+                        </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="125px" height="75px" fill="#F48C06" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M503.467,0H8.533C3.814,0,0,3.823,0,8.533v494.933C0,508.177,3.814,512,8.533,512h494.933
+                                        c4.719,0,8.533-3.823,8.533-8.533V8.533C512,3.823,508.186,0,503.467,0z M290.133,392.533c0,42.342-34.449,76.8-76.8,76.8
+                                        c-42.351,0-76.8-34.458-76.8-76.8c0-4.71,3.814-8.533,8.533-8.533s8.533,3.823,8.533,8.533c0,32.939,26.803,59.733,59.733,59.733
+                                        c32.93,0,59.733-26.795,59.733-59.733v-204.8c0-4.71,3.814-8.533,8.533-8.533c4.719,0,8.533,3.823,8.533,8.533V392.533z
+                                         M392.533,315.733c42.351,0,76.8,34.458,76.8,76.8c0,42.342-34.449,76.8-76.8,76.8c-42.351,0-76.8-34.458-76.8-76.8
+                                        c0-4.71,3.814-8.533,8.533-8.533c4.719,0,8.533,3.823,8.533,8.533c0,32.939,26.803,59.733,59.733,59.733
+                                        c32.93,0,59.733-26.795,59.733-59.733c0-32.939-26.803-59.733-59.733-59.733c-42.351,0-76.8-34.458-76.8-76.8
+                                        s34.449-76.8,76.8-76.8c42.351,0,76.8,34.458,76.8,76.8c0,4.71-3.814,8.533-8.533,8.533c-4.719,0-8.533-3.823-8.533-8.533
+                                        c0-32.939-26.803-59.733-59.733-59.733c-32.93,0-59.733,26.795-59.733,59.733S359.603,315.733,392.533,315.733z"/></g></svg>
+                            </li>
+                        <li>
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                 viewBox="0 0 434.147 434.147" style="enable-background:new 0 0 434.147 434.147;" xml:space="preserve">
+                            <path style="fill:#F48C06;" d="M27.336,14.372l28.177,360.474c0.423,5.413,4.087,10.029,9.263,11.67l148.268,47.008
+                                c2.622,0.831,5.437,0.831,8.059,0l148.268-47.008c5.176-1.641,8.84-6.257,9.263-11.67l28.177-360.474
+                                C407.417,6.622,401.292,0,393.519,0H40.629C32.856,0,26.731,6.622,27.336,14.372z M334.553,126.215H150.918l5.542,51.105h174.099
+                                L319.17,323.013l-102.096,32.369l-102.096-32.369l-5.95-76.116h53.588v37.336l55.89,15l55.556-15l4.31-59.503H107.295L95.937,79.419
+                                H338.21L334.553,126.215z"/></svg>
+                            
+                        </li>
+                        <li><?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="75px" fill="#F48C06"
+                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <polygon style="fill:#F48C06;" points="32,0 72.8,460.8 256,512 439.136,460.832 480,0 "/>
+                            <polygon style="fill:#000000;" points="392.768,150.688 387.616,208.576 372.064,382.112 256,414.208 255.904,414.24 
+                                139.904,382.112 131.808,291.36 188.64,291.36 192.864,338.432 255.936,355.456 255.968,355.424 319.136,338.4 327.744,259.968 
+                                129.088,260.512 123.456,206.88 332.512,204.416 336.736,147.008 117.856,147.616 114.176,94.208 256,94.208 397.824,94.208 "/></svg>
+                            </li>
+                        <li>
+                            <svg class="svg" id="Bold" enable-background="new 0 0 24 24" width="125px" height="75px" fill="#F48C06" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 0c-6.615 0-12 5.381-12 12 0 6.615 5.385 12 12 12s12-5.385 12-12c0-6.62-5.385-12-12-12zm-10.79 11.999c0-1.563.333-3.048.934-4.389l5.148 14.1c-3.601-1.751-6.082-5.442-6.082-9.711zm10.79 10.791c-1.06 0-2.081-.155-3.048-.441l3.237-9.406 3.315 9.087c.024.054.049.101.077.15-1.118.392-2.323.61-3.581.61zm1.485-15.845v-.001c.648-.034 1.233-.101 1.233-.101.581-.068.513-.924-.068-.891 0 0-1.747.135-2.874.135-1.06 0-2.841-.135-2.841-.135-.58-.034-.647.857-.067.891 0 0 .551.068 1.132.101l1.679 4.606-2.361 7.079-3.928-11.685c.649-.034 1.234-.101 1.234-.101.581-.068.513-.924-.068-.891 0 0-1.747.135-2.874.135-.203 0-.441-.005-.697-.014 1.931-2.928 5.245-4.863 9.015-4.863 2.807 0 5.366 1.075 7.287 2.83-.049-.005-.092-.009-.14-.009-1.06 0-1.81.924-1.81 1.916 0 .89.513 1.64 1.06 2.531.411.716.891 1.64.891 2.976 0 .924-.353 1.993-.823 3.489l-1.075 3.595zm7.985-.122c.842 1.539 1.321 3.3 1.321 5.178 0 3.982-2.158 7.456-5.366 9.324l-.001-.001 3.295-9.528c.614-1.539.823-2.767.823-3.866 0-.396-.024-.764-.072-1.107z"/></svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h3>Experience Professionnelle</h3>
+        <section class="exp_pro">
+                <div class="bg_div" id="list">
+                    <div class="exp_year">
+                        <h3>2012 - 2020</h3>
+                       <p>- Heddon Street Kitchen, Gordon Ramsay Group,<br>
+                            LONDRES (GB)</p>
+
+                        <p>- Le 7 Restaurant Panoramique, BORDEAUX (FR) <br></p>
+                        <p>- P’tit Québec Café, <br>
+                            BORDEAUX (FR)</p> 
+                    </div>
+                    <div class="exp_year">
+                        <h3>2008 - 2012</h3>
+                        <p>- Japan Expo PARIS (FR)</p> 
+                        <p>- Japan Expo Centre (ORLEANS)</p> 
+                        <p>- Multiples stages durant la formation AFPA</p> 
+                        <p>- Saisonnière VVF Azureva Ste Montaine (18)</p> 
+                    </div>
+                </div>
+                <div class="bg_div" id="comp">
+                    <div class="border_left">
+                        <p>
+                            Gestion du temps et des priorités, Service client, Techniques de vente,Communication, Gestion d’une équipe.
+                        </p>
+                    </div>
+                    <div class="border_left">
+                        <p>
+                            Accueil du public, Secrétariat, Organisation et gestion de projet, Accueil et management des intervenants
+                        </p>
+                    </div>
+                    <div class="border_left">
+                        <p>
+                            Création de supports de communication, Animation, créations d’ateliers et jeux tous publics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h3>Formation</h3>
+        <section class="exp_pro">
+                <div class="bg_div" id="list">
+                    <div class="exp_year" id="school">
+                        <h3>2008</h3>
+                        <p>Baccalauréat L <br>
+                        Option Art Plastique <br>
+                        Bourges (18)</p>
+                    </div>
+                    <div class="exp_year" id="school">
+                        <h3>2011</h3>
+                        <p>Licence de langue Japonaise <br>
+                            LLCE - Université <br>
+                            Bordeaux-Montaigne (33)</p>
+                    </div>
+                    <div class="exp_year" id="school">
+                        <h3>2012</h3>
+                        <p>Technicien d’accueil touristique <br>
+                            Titre professionnel niv. IV - <br>
+                            AFPA Bourges (18)</p>
+                    </div>
+                    <div class="exp_year" id="school">
+                        <h3>2021</h3>
+                        <p>Formation WebDesign <br>
+                            Titre Professionnel niv. III <br>
+                            CCI Bordeaux (33)</p>
+                    </div>
+                </div>
+        </section>
+    </section> <br><br>
+
+   <section id="box">
+       <h2>About Me</h2>
+        <div id="about_me">
+            <div id="avatar">
+                <img src="src/img/logo-czh-orange.png" alt="">
+            </div>
+            <div class="bg_div" id="prez-text">
+                <p>
+                    Mes Passions et influences <br><br>
+                    Beaucoup de chose dans le monde m'inspirent, que cela soit dans le cinema, un bon livre ou un artiste en particulier? Vous trouverez à la suite une liste non exhaustive d'oeuvre et artistes qui ont été une forte influence sur mon univers et ma manière de voir le monde.<br><br>
+                    Cette page est la principalement pour vous donnez un aperçut du monde dans lequel j'évolue, si vous passer votre sourie sur chaque image, vous y trouverez plus d'information sur les artistes ou les oeuvres représentées.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="inspi">
+        <h3>Artist</h3>
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="container">
+                        <img src="src/img/artistes/siudmak.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Wjotek Siudmak</h4><br></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Wojtek_Siudmak"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://www.siudmak.fr/">Official Website</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/artistes/mucha.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Alfons Mucha</h4><br></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Alfons_Mucha"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/artistes/wl-op.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4 id="wlop">WLOP</h4><br></li>
+                                    <div class="wrap">
+                                        <li><a href="https://www.artstation.com/wlop"><i class="fab fa-artstation"></i></a></li>
+                                        <li><a href="https://www.deviantart.com/wlop"><i class="fab fa-deviantart"></i></a></li>
+                                        <li><a href="https://twitter.com/wlopwangling"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/wlop/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCPa7bvOg_r54NaQb7GJA9Eg"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href=" https://www.patreon.com/wlop"><i class="fab fa-patreon"></i></a></li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/artistes/ZeldaCW.jpg"" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>ZeldaCW</h4><br></li>
+                                    <div class="wrap">
+                                        <li><a href="https://www.deviantart.com/zeldacw/gallery"><i class="fab fa-deviantart"></i></li></a>
+                                        <li><a href="https://twitter.com/zeldacw"><i class="fab fa-twitter"></i></li></a>
+                                        <li><a href="https://www.instagram.com/zeldacw"><i class="fab fa-instagram"></i></li></a>
+                                        <li><a href="https://www.twitch.tv/zeldacw"><i class="fab fa-twitch"></i></li></a>
+                                        <li><a href="https://www.patreon.com/zeldacw"><i class="fab fa-patreon"></a></i></li>
+                                    </div>
+                                    <li><a href="https://www.zeldacw.com/">Official Website</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/artistes/dragonji-copie.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Joshua Beeking</h4><br></li>
+                                    <div class="wrap">
+                                        <li><a href="https://www.artstation.com/joshuacinensis"><i class="fab fa-artstation"></i></li></a>
+                                        <li><a href="https://joshua-beeking.tumblr.com/"><i class="fab fa-tumblr"></i></i></li></a>
+                                        <li><a href="https://twitter.com/JoshuaBeeking"><i class="fab fa-twitter"></i></li></a>
+                                        <li><a href="https://www.instagram.com/joshua_beeking/"><i class="fab fa-instagram"></i></li></a>
+                                        <li><a href="https://www.twitch.tv/joshuabeeking"><i class="fab fa-twitch"></i></li></a>
+                                        <li><a href="https://www.patreon.com/JoshuaBeeking"><i class="fab fa-patreon"></a></i></li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Cinema</h3>
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="container">
+                        <img src="src/img/Cinema/darkcrystal.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Dark Crystal</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0083791/?ref_=fn_al_tt_1"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Dark_Crystal"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/Cinema/del-toro-pan.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Pan's Labyrinth</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0457430/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Le_Labyrinthe_de_Pan"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/Cinema/wes-anderson.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Grand Budapest Hotel</h4><br></li>
+                                    <li><a href="https://fr.wikipedia.org/wiki/The_Grand_Budapest_Hotel"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://www.imdb.com/title/tt2278388/?ref_=nv_sr_srsg_0"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/Cinema/pacific-rim.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Pacific Rim</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt1663662/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Pacific_Rim_(film)"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/Cinema/captain-america.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Captain America, The Winter Soldier</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt1843866/?ref_=nv_sr_srsg_6"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Captain_America_:_Le_Soldat_de_l%27hiver"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Animation</h3>
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="container">
+                        <img src="src/img/animation/NIMH.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Brisby et le secret de NIMH</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0084649/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Brisby_et_le_Secret_de_NIMH"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/animation/makoto-shinkai.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Your Name</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt5311514/?ref_=nv_sr_srsg_3"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Your_Name."><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/animation/chihiro.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Le Voyage de Chihiro</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0245429/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Le_Voyage_de_Chihiro"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/animation/inside_out.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Vice Versa</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt2096673/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Vice-versa_(film,_2015)"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/animation/merlin-disney.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Merlin l'Enchanteur</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0057546/?ref_=nv_sr_srsg_9"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Merlin_l%27Enchanteur_(film,_1963)"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Anime / Donghua</h3>
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="container">
+                        <img src="src/img/anime/violet-evergarden.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Violet Evergarden</h4><br></li>
+                                    <div class="wrap">
+                                        <li><a href="https://www.imdb.com/title/tt7078180/?ref_=nv_sr_srsg_2"><i class="fab fa-imdb"></i></li></a>
+                                        <li><a href="https://fr.wikipedia.org/wiki/Violet_Evergarden"><i class="fab fa-wikipedia-w"></i></li></a>
+                                        <li><a href="https://twitter.com/Violet_Letter"><i class="fab fa-twitter"></i></li></a>
+                                        <li><a href="https://www.instagram.com/violetevergarden_movie/"><i class="fab fa-instagram"></i></li></a>
+                                    </div>
+                                    <li><a href="http://violet-evergarden.jp/">Official Website JP</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/anime/Rahxephon1.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>RahXephon</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0364863/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/RahXephon"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/anime/FMA.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>FullMetal Alchemist Brotherhood</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt1355642/?ref_=fn_al_tt_4"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://fr.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://fullmetalalchemistusa.com/">Official Website USA</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/anime/tgcf.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Heaven's Official Blessing</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt13375866/?ref_=nv_sr_srsg_0"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://en.wikipedia.org/wiki/Heaven_Official%27s_Blessing"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://www.bilibili.com/tgcf">Official Website CH</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/anime/wolfsrain.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Wolf's Rain</h4><br></li>
+                                    <li><a href="https://www.imdb.com/title/tt0367439/?ref_=tt_ov_inf"><i class="fab fa-imdb"></i></li></a>
+                                    <li><a href="https://en.wikipedia.org/wiki/Wolf%27s_Rain"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Games</h3>
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="container">
+                        <img src="src/img/jeu/botw.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>The Legend Of Zelda</h4><br></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://www.zelda.com/breath-of-the-wild/">Official Website</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/jeu/suikoden2.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Suikoden II</h4><br></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Suikoden_II"><i class="fab fa-wikipedia-w"></i></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/jeu/Gris.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Gris</h4><br></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Gris"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://store.steampowered.com/app/683320/GRIS/"><i class="fab fa-steam"></i></a></li>
+                                    <li><a href="https://nomada.studio/">Official Website</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/jeu/animalcross.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Animal Crossing New Horizon</h4><br></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://www.animal-crossing.com/new-horizons/">Official Website</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="src/img/jeu/Among_Us.jpg" class="cover" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                <ul>
+                                    <li><h4>Among Us</h4><br></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Among_Us"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://store.steampowered.com/app/945360/Among_Us/"><i class="fab fa-steam"></i></a></li>
+                                    <li><a href="https://innersloth.com/gameAmongUs.php">Official Website</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Books</h3>
+        <div class="list">
+            <ul>
+                <li>
+                    <div class="container">
+                    <img src="src/img/livres/eddings.jpg" class="cover" alt="">
+                    <div class="middle">
+                        <div class="text">
+                            <ul>
+                                <li><h4>David & Leigh Eddings</h4><br></li>
+                                <li><p> La Belgariade <br> & La Mallorée</p></li>
+                                <li><a href="https://fr.wikipedia.org/wiki/La_Belgariade"><i class="fab fa-wikipedia-w"></i></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                    <img src="src/img/livres/petitprince.jpg" class="cover" alt="">
+                    <div class="middle">
+                        <div class="text">
+                            <ul>
+                                <li><h4>Aintoine de St Exupery</h4><br></li>
+                                <li><p>Le Petit Prince</p></li>
+                                <li><a href="https://fr.wikipedia.org/wiki/Le_Petit_Prince"><i class="fab fa-wikipedia-w"></i></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                    <img src="src/img/livres/Pern.jpg" class="cover" alt="">
+                    <div class="middle">
+                        <div class="text">
+                            <ul>
+                                <li><h4>Anne MacCaffrey</h4><br></li>
+                                <li><p>La Balla de de PERN</p></li>
+                                <li><a href="https://fr.wikipedia.org/wiki/La_Ballade_de_Pern"><i class="fab fa-wikipedia-w"></i></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                    <img src="src/img/livres/Gaiman.jpg" class="cover" alt="">
+                    <div class="middle">
+                        <div class="text">
+                            <ul>
+                                <li><h4>Neil Gaiman</h4><br></li>
+                                <div class="wrap">
+                                    <li><a href="https://fr.wikipedia.org/wiki/Neil_Gaiman"><i class="fab fa-wikipedia-w"></i></li></a>
+                                    <li><a href="https://neil-gaiman.tumblr.com//"><i class="fab fa-tumblr"></i></i></li></a>
+                                    <li><a href="https://twitter.com/neilhimself"><i class="fab fa-twitter"></i></li></a>
+                                </div>
+                                <li><a href="https://www.neilgaiman.com/">Official Website</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                    <img src="src/img/livres/harrypotter.jpg" class="cover" alt="">
+                    <div class="middle">
+                        <div class="text">
+                            <ul>
+                                <li><h4>J.K Rowling</h4><br></li>
+                                <li><p>Harry Potter</p></li>
+                                <li><a href="https://fr.wikipedia.org/wiki/Harry_Potter"><i class="fab fa-wikipedia-w"></i></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section> <br><br>
+
+    <section class="contact" id="contact">
+        <h2>Contact me</h2>
+
+        <div class="form" >
+            <form class="bg_div" action="contact.php" method="POST">
+                <div id="form_bottom">
+                    <div id="form_right">
+                        <label class="infos" name="name" class="id="nom" for="name">Name *</label>
+                        <input id="name" name="nom" type="text" placeholder="ex : De Montmirail" required>
+
+                        <label name="firstname" id="prenom" for="prenom">First Name *</label>
+                        <input id="prenom" name="prenom" type="text" placeholder="ex : Mellissandre" required>
+
+                        <label name="telephone" id="telephone" for="tel">Telephone</label>
+                        <input id="tel" type="text" placeholder="ex : 0700000000">
+
+                        <label for="mail" id="mail">Votre adresse mail *</label>
+                        <input id="mail" name="mail" type="text" placeholder="ex : meli.monmit@gmail.com" required>
+                    </div>
+
+                    <div id="form_left">
+                        <label for="message">Votre message * </label>
+                        <textarea id="message" name="message" placeholder="Your message here" required></textarea>
+                    </div>
+				</div>
+            <div id="bouton">
+                <a href="#"><input class="bouton btn btn-primary" type="submit" value="Send !"></a>
+            </div>
+			
+			</form>
+		</div>
+    </section>
+
+    <div id="thankyou">
+
+    </div>
+    
+    <script src="lottie.js"></script>
+    <script>
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('logo_anime'),
+            renderer: 'svg',
+            autoplay: true,
+            loop : false,
+            path: 'logo.json'
+        })
+    </script>
+
+<script>
+    var animation = bodymovin.loadAnimation({
+        container: document.getElementById('thankyou'),
+        renderer: 'svg',
+        autoplay: true,
+        path: 'thankyou.json'
+    })
+</script>
+
+<script src="src/js/jquery.dragscroll.js"></script>
+<script src="src/js/anim.js"></script>
+
+</body>
+</html>

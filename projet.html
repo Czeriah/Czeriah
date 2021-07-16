@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/9cd224d2fe.js" crossorigin="anonymous"></script>
+
+
+    <nav id="side_menu" class="flex">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Projet</a></li>
+            <li><a>CV</a></li>
+            <li><a>About Me</a></li>
+            <li><a>Contact</a></li>
+        </ul> 
+    </nav>
+   
+    <section id="projects">
+        <a href="projet.html"><h2>My projects</h2></a>
+ 
+         <section class="slider">
+             <div class="slider-inner">
+                 <div class="slide content1" onclick="on()">
+                     <div id="border_red">
+                         <img src="src/img/bateau404.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content2" onclick="on()">
+                     <div id="border_orange-1">
+                         <img src="src/img/cassette.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content3" onclick="on()">
+                     <div  id="border_orange-2">
+                         <img src="src/img/Elevage.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content4" onclick="on()">
+                     <div  id="border_jaune">
+                         <img src="src/img/ghosty404.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content5" onclick="on()">
+                     <div  id="border_red">
+                         <img src="src/img/glass-planet.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content6" onclick="on()">
+                     <div  id="border_orange-1">
+                         <img src="src/img/hackathon.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content7" onclick="on()">
+                     <div  id="border_orange-2">
+                         <img src="src/img/llewelynnsknit.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content8" onclick="on()">
+                     <div  id="border_jaune">
+                         <img src="src/img/podcast.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content9" onclick="on()">
+                     <div id="border_red">
+                         <img src="src/img/snowflake.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="slide content10" onclick="on()">
+                     <div id="border_orange-1">
+                        <img src="src/img/soucoupe404.jpg" alt="">
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+    <section class="project_description" id="overlay">
+        <div class="inside" id="content1">
+            <div id="titre">
+                <h2 class="project_title">The Boat</h2> 
+                <i class="fas fa-times" onclick="off()"></i>
+            </div>
+            
+            <p>This project was part of the "404" project. The idea was to create a 404 page on the theme of Moby Dick. I first created the illustration using <strong>Illustrator</strong> and then animated it with <strong>After Effect</strong>.</p>
+
+            <img src="src/img/projets/404-boat.png" class="boat" alt="">
+
+            <video src="src/img/projets/bateau final.mp4" class="boat" controls></video>
+    </section>
+
+
+    </main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="src/js/jquery.dragscroll.js"></script>
+<script src="src/js/anim.js"></script>
+
+</body>
+</html>
