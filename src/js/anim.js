@@ -15,7 +15,6 @@ var body = document.querySelector('body')
 var count = null;
 
 overlay.forEach((item, i) => {
-  console.log(item, i);
   item.addEventListener('dblclick', function load() {
       count = Array.from(gallerie).indexOf(item);
       item.style.display = 'block';
@@ -55,9 +54,7 @@ overlay.forEach((item, i) => {
     }
       
       else {
-        overlay.forEach(element => {
-          element.style.display = 'none'
-        });
+          overlay.style.display = 'none';
       }
 
   });
