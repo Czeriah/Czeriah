@@ -1,4 +1,5 @@
 var gallerie = document.querySelectorAll('#gallerie .slide');
+var overlay = document.querySelector('#overlay');
 var content1 = document.querySelector('.content-1');
 var content2 = document.querySelector('.content-2');
 var content3= document.querySelector('.content-3');
@@ -10,8 +11,8 @@ var content8 = document.querySelector('.content-8');
 var content9 = document.querySelector('.content-9');
 var content10 = document.querySelector('.content-10');
 var body = document.querySelector('body');
+// overlay.style.display = 'none';
 var count = null;
-
           // overlay.style.display = 'none';
           // content1.style.display = 'none';
           // content2.style.display = 'none';
@@ -27,6 +28,7 @@ var count = null;
 gallerie.forEach(item => {
   item.addEventListener('dblclick', function() {
       count = Array.from(gallerie).indexOf(item);
+      overlay.style.display = 'block';
       body.style.overflow = 'hidden';
       // overlay.style.overflow = 'auto';
       // overlay.style.animation = 'display 0.5s ease';
@@ -55,18 +57,22 @@ gallerie.forEach(item => {
       } else if (count == 9) {
         content10.style.display = 'block';
     }
-     
+      
+      else {
+          overlay.style.display = 'none';
+      }
+
   });
 });
 
 
   function on() {
-    document.querySelector(".inside").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
   }
       // if {
       //   document.getElementsByClassName("content1").style.display =(".project_description" , "content1"),
       // }
   
   function off() {
-    document.querySelector(".inside").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
   } 

@@ -214,9 +214,7 @@ h3 {
     grid-template-columns: repeat(10, 1fr);
 }
 
-/*---------------- projets description ---------------*/
-
-.inside {
+#overlay {
     position: fixed;
     display: none;
     width: 100%;
@@ -227,21 +225,27 @@ h3 {
     bottom: 0;
     background-color: #640410E6;
     z-index: 2;
+    cursor: pointer;
+  }
+
+/*---------------- projets description ---------------*/
+
+.inside {
+    display:none;
     /* position: absolute; */
     overflow: scroll;
 }
 
 /* .project_description::-webkit-scrollbar*/
- /* .inside {
+ .inside {
     width: 16px;
-  } */
+  }
 
 .inside::-webkit-scrollbar-thumb {
     background-color: #7b7d7f;
     border: 5px solid #fff;
     border-radius: 10rem;
   }
-  
 .inside::-webkit-scrollbar-track {
     position: absolute;
     right: -3rem;
