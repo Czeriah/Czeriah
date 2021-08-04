@@ -1,16 +1,16 @@
 var gallerie = document.querySelectorAll('#gallerie #slide');
 var overlay = document.querySelectorAll('#overlay > *');
-var content1 = document.querySelector('.content-1')
-var content2 = document.querySelector('.content-2')
-var content3= document.querySelector('.content-3')
-var content4 = document.querySelector('.content-4')
-var content5 = document.querySelector('.content-5')
-var content6 = document.querySelector('.content-6')
-var content7 = document.querySelector('.content-7')
-var content8 = document.querySelector('.content-8')
-var content9 = document.querySelector('.content-9')
-var content10 = document.querySelector('.content-10')
-var body = document.querySelector('body')
+var content1 = document.querySelector('.content-1');
+var content2 = document.querySelector('.content-2');
+var content3= document.querySelector('.content-3');
+var content4 = document.querySelector('.content-4');
+var content5 = document.querySelector('.content-5');
+var content6 = document.querySelector('.content-6');
+var content7 = document.querySelector('.content-7');
+var content8 = document.querySelector('.content-8');
+var content9 = document.querySelector('.content-9');
+var content10 = document.querySelector('.content-10');
+var body = document.querySelector('body');
 // overlay.style.display = 'none';
 var count = null;
 
