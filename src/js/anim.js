@@ -1,5 +1,5 @@
 var gallerie = document.querySelectorAll('#gallerie #slide');
-var overlay = document.querySelectorAll('#overlay > *');
+var overlay = document.querySelector('#overlay');
 var content1 = document.querySelector('.content-1');
 var content2 = document.querySelector('.content-2');
 var content3= document.querySelector('.content-3');
@@ -14,7 +14,7 @@ var body = document.querySelector('body');
 // overlay.style.display = 'none';
 var count = null;
 
-
+          content1.style.display = 'none';
           content2.style.display = 'none';
           content3.style.display = 'none';
           content4.style.display = 'none';
@@ -28,17 +28,20 @@ var count = null;
 gallerie.forEach(item => {
   item.addEventListener('dblclick', function() {
       count = Array.from(gallerie).indexOf(item);
+      overlay.style.display = 'block';
       body.style.overflow = 'hidden';
       // overlay.style.overflow = 'auto';
       // overlay.style.animation = 'display 0.5s ease';
 
         if (count == 0) {
           content1.style.display = 'block';
-          
+          console.log('0');
       } else if (count == 1) {
           content2.style.display = 'block';
+          console.log('1');
       } else if (count == 2) {
           content3.style.display = 'block';
+          console.log('2');
       } else if (count == 3) {
            content4.style.display = 'block';
       } else if (count == 4) {
