@@ -61,12 +61,12 @@ gallerie.forEach(item => {
 
 
   function on() {
-    document.getElementById("overlay").style.display = "block";
+    document.querySelector(".inside").style.display = "block";
   }
       // if {
       //   document.getElementsByClassName("content1").style.display =(".project_description" , "content1"),
       // }
   
   function off() {
-    document.getElementById("overlay").style.display = "none";
+    document.querySelector(".inside").style.display = "none";
   } 
