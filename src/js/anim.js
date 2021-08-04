@@ -1,4 +1,4 @@
-var gallerie = document.querySelectorAll('#gallerie > *');
+var gallerie = document.querySelectorAll('#gallerie #slide');
 var overlay = document.querySelectorAll('#overlay > *');
 var content1 = document.querySelector('.content-1')
 var content2 = document.querySelector('.content-2')
@@ -14,16 +14,6 @@ var body = document.querySelector('body')
 // overlay.style.display = 'none';
 var count = null;
 
-overlay.forEach((item, i) => {
-  item.addEventListener('dblclick', function load() {
-      count = Array.from(gallerie).indexOf(item);
-      item.style.display = 'block';
-      // body.style.overflow = 'hidden';
-      // overlay.style.overflow = 'auto';
-      // overlay.style.animation = 'display 0.5s ease';
-
-        if (count == 0) {
-          content1.style.display = 'block';
           content2.style.display = 'none';
           content3.style.display = 'none';
           content4.style.display = 'none';
@@ -33,6 +23,17 @@ overlay.forEach((item, i) => {
           content8.style.display = 'none';
           content9.style.display = 'none';
           content10.style.display = 'none';
+
+gallerie.forEach(item => {
+  item.addEventListener('dblclick', function() {
+      count = Array.from(gallerie).indexOf(item);
+      body.style.overflow = 'hidden';
+      // overlay.style.overflow = 'auto';
+      // overlay.style.animation = 'display 0.5s ease';
+
+        if (count == 0) {
+          content1.style.display = 'block';
+          
       } else if (count == 1) {
           content2.style.display = 'block';
       } else if (count == 2) {
