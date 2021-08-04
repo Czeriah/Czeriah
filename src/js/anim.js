@@ -1,4 +1,4 @@
-var gallerie = document.querySelectorAll('#gallerie #slide');
+var gallerie = document.querySelectorAll('#gallerie .slide');
 var overlay = document.querySelector('#overlay');
 var content1 = document.querySelector('.content-1');
 var content2 = document.querySelector('.content-2');
@@ -13,8 +13,8 @@ var content10 = document.querySelector('.content-10');
 var body = document.querySelector('body');
 // overlay.style.display = 'none';
 var count = null;
-
-          content1.style.display = 'none';
+          // overlay.style.display = 'none';
+          // content1.style.display = 'none';
           content2.style.display = 'none';
           content3.style.display = 'none';
           content4.style.display = 'none';
