@@ -15,15 +15,15 @@ var body = document.querySelector('body');
 var count = null;
           // overlay.style.display = 'none';
           // content1.style.display = 'none';
-          content2.style.display = 'none';
-          content3.style.display = 'none';
-          content4.style.display = 'none';
-          content5.style.display = 'none';
-          content6.style.display = 'none';
-          content7.style.display = 'none';
-          content8.style.display = 'none';
-          content9.style.display = 'none';
-          content10.style.display = 'none';
+          // content2.style.display = 'none';
+          // content3.style.display = 'none';
+          // content4.style.display = 'none';
+          // content5.style.display = 'none';
+          // content6.style.display = 'none';
+          // content7.style.display = 'none';
+          // content8.style.display = 'none';
+          // content9.style.display = 'none';
+          // content10.style.display = 'none';
 
 gallerie.forEach(item => {
   item.addEventListener('dblclick', function() {
