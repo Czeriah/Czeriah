@@ -214,7 +214,7 @@ h3 {
     grid-template-columns: repeat(10, 1fr);
 }
 
-#overlay {
+.overlay {
     position: fixed;
     display: none;
     width: 100%;
@@ -238,7 +238,8 @@ h3 {
 
 /* .project_description::-webkit-scrollbar*/
  .inside {
-    width: 16px;
+    width: 100%;
+    height: 100%;
   }
 
 .inside::-webkit-scrollbar-thumb {
@@ -263,10 +264,11 @@ h3 {
 }
 
 .inside {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     gap: 30px;
     padding: 0px 100px 100px 100px;
+
 }
 
 #titre {
