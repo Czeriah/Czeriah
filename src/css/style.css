@@ -263,7 +263,6 @@ h3 {
 }
 
 .inside {
-    display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 0px 100px 100px 100px;
