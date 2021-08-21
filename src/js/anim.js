@@ -23,34 +23,34 @@ var p9 = document.querySelector('#projet9');
 var p10 = document.querySelector('#projet10');
 
 p1.addEventListener('click',function() {
-  cachcach1.style.display='flex';
+  cachcach1.style.display='block';
 });
 p2.addEventListener('click',function() {
-  cachcach2.style.display='flex';
+  cachcach2.style.display='block';
 });
 p3.addEventListener('click',function() {
-  cachcach3.style.display='flex';
+  cachcach3.style.display='block';
 });
 p4.addEventListener('click',function() {
-  cachcach4.style.display='flex';
+  cachcach4.style.display='block';
 });
 p5.addEventListener('click',function() {
-  cachcach5.style.display='flex';
+  cachcach5.style.display='block';
 });
 p6.addEventListener('click',function() {
-  cachcach6.style.display='flex';
+  cachcach6.style.display='block';
 });
 p7.addEventListener('click',function() {
-  cachcach7.style.display='flex';
+  cachcach7.style.display='block';
 });
 p8.addEventListener('click',function() {
-  cachcach8.style.display='flex';
+  cachcach8.style.display='block';
 });
 p9.addEventListener('click',function() {
-  cachcach9.style.display='flex';
+  cachcach9.style.display='block';
 });
 p10.addEventListener('click',function() {
-  cachcach10.style.display='flex';
+  cachcach10.style.display='block';
 });
 
 

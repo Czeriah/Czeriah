@@ -231,7 +231,6 @@ h3 {
 /*---------------- projets description ---------------*/
 
 .inside {
-    display:none;
     /* position: absolute; */
     overflow: scroll;
 }
@@ -264,7 +263,7 @@ h3 {
 }
 
 .inside {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 0px 100px 100px 100px;
