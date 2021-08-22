@@ -1,4 +1,3 @@
-
 /* Overlay projets*/
 var cachcach1 = document.querySelector('#hidden-1');
 var cachcach2 = document.querySelector('#hidden-2');
