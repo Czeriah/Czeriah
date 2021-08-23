@@ -197,6 +197,7 @@ h3 {
 }
 
 .handle {
+    width: 100vh;
     height:100%;
     position: absolute;
 }
