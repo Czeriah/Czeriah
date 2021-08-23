@@ -206,9 +206,6 @@ h3 {
     padding-bottom: 30px;
     overflow: auto;
     overflow-x : hidden;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     cursor: grab;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
