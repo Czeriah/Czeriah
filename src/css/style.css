@@ -253,6 +253,7 @@ h3 {
 .illu {
     width: 800px;
     height: auto;
+    padding: 10px;
 }
 
 .inside p {
