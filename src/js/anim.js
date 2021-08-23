@@ -10,6 +10,9 @@ var cachcach8 = document.querySelector('#hidden-8');
 var cachcach9 = document.querySelector('#hidden-9');
 var cachcach10 = document.querySelector('#hidden-10');
 var cachcach11 = document.querySelector('#hidden-11');
+var cachcach9 = document.querySelector('#hidden-12');
+var cachcach10 = document.querySelector('#hidden-13');
+var cachcach11 = document.querySelector('#hidden-14');
 var p1 = document.querySelector('#projet1');
 var p2 = document.querySelector('#projet2');
 var p3 = document.querySelector('#projet3');
@@ -20,6 +23,9 @@ var p7 = document.querySelector('#projet7');
 var p8 = document.querySelector('#projet8');
 var p9 = document.querySelector('#projet9');
 var p10 = document.querySelector('#projet10');
+var p8 = document.querySelector('#projet11');
+var p9 = document.querySelector('#projet12');
+var p10 = document.querySelector('#projet13');
 
 p1.addEventListener('click',function() {
   cachcach1.style.display='block';
@@ -50,6 +56,15 @@ p9.addEventListener('click',function() {
 });
 p10.addEventListener('click',function() {
   cachcach10.style.display='block';
+});
+p11.addEventListener('click',function() {
+  cachcach11.style.display='block';
+});
+p12.addEventListener('click',function() {
+  cachcach12.style.display='block';
+});
+p13.addEventListener('click',function() {
+  cachcach13.style.display='block';
 });
 
 
@@ -82,6 +97,15 @@ cachcach9.addEventListener('click',function(){
 });
 cachcach10.addEventListener('click',function(){
   cachcach10.style.display='none';
+});
+cachcach11.addEventListener('click',function(){
+  cachcach11.style.display='none';
+});
+cachcach12.addEventListener('click',function(){
+  cachcach12.style.display='none';
+});
+cachcach13.addEventListener('click',function(){
+  cachcach13.style.display='none';
 });
 
 
