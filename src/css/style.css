@@ -191,7 +191,7 @@ h3 {
 }
 
 .dragdealer {
-    width: 1755px;
+    width: 100vh;
     height :600px;
     overflow: hidden;
 }
